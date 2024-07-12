@@ -48,6 +48,49 @@ section#login > div#imagem {
     background-position: left bottom;
     border-radius: 10px 10px 0 0;
     height: 165px;
+}
 
+section#login > div#formulario {
+    display: block;
+    padding: 10px 20px 10px 20px;
+}
 
+div#formulario > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+form > div.campo {
+    background-color: var(--cor1);
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 1px;
+    height: 36px;
+    margin: 13px 0;
+}
+
+div.campo > input {
+    border: none;
+    width: calc(100% - 46px);
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    position: relative;
+    left: 1px;
+    padding-left: 10px;
+    transform: translateY(-4px);
+}
+
+div.campo > span {
+    color: white;
+    padding: 3px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48    
 }
